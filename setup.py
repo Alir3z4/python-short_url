@@ -12,4 +12,16 @@ setup(
     maintainer_email='alireza.savand@gmail.com',
     description='Python implementation for generating Tiny URL- and bit.ly-like URLs.',
     long_description=open('README.rst').read(),
+    platforms='OS Independent',
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Programming Language :: Python',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Software Development'
+    ],
 )

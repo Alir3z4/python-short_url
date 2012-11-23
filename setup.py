@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='short_url',
-    version='1.0',
+    version=".".join(map(str, __import__('short_url').__version__)),
     packages=['short_url',],
     url='https://github.com/Alir3z4/short_url',
     license='MIT',

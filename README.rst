@@ -54,21 +54,19 @@ Give a try to your finger:
     
     $ pip install short_url
 
+And done ;)
 
-Source
+
 ----
-You can grab the latest tarball from github repo:
 
-https://github.com/Alir3z4/short_url/archive/master.tar.gz
+========== ======
+Source      https://github.com/Alir3z4/short_url
+Website     http://alir3z4.github.com/short_url
+Issues      https://github.com/Alir3z4/short_url/issues
+PyPi        http://pypi.python.org/pypi/short_url
+Author      Michael Fogleman
+Maintainer  Alireza Savand
+License     MIT
+Link        http://code.activestate.com/recipes/576918/
+========== ======
 
-And of course fork / watch / issues at:
-
-https://github.com/Alir3z4/short_url/
-
-Credit
-------
-Author: Michael Fogleman
-
-License: MIT
-
-Link: http://code.activestate.com/recipes/576918/

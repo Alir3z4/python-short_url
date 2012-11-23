@@ -41,6 +41,32 @@ Use the functions in the top-level of the module to use the default encoder.
 Otherwise, you may create your own UrlEncoder object and use its encode_url
 and decode_url methods.
 
+
+Install
+----
+**short_url** is also available at pypi:
+
+http://pypi.python.org/pypi/short_url
+
+Give a try to your finger:
+
+::
+    
+    $ pip install short_url
+
+
+Source
+----
+You can grab the latest tarball from github repo:
+
+https://github.com/Alir3z4/short_url/archive/master.tar.gz
+
+And of course fork / watch / issues at:
+
+https://github.com/Alir3z4/short_url/
+
+Credit
+------
 Author: Michael Fogleman
 
 License: MIT

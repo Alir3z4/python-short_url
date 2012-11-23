@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+MANIFEST
+*~
+
+.idea
+.project
+.pydevproject
+
+*.egg-info
+dist
+
+build/

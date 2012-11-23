@@ -42,5 +42,7 @@ Otherwise, you may create your own UrlEncoder object and use its encode_url
 and decode_url methods.
 
 Author: Michael Fogleman
+
 License: MIT
+
 Link: http://code.activestate.com/recipes/576918/

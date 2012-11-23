@@ -8,6 +8,8 @@ setup(
     license='MIT',
     author='Michael Fogleman',
     author_email='michael.fogleman@gmail.com',
+    maintainer='Alireza Savand',
+    maintainer_email='alireza.savand@gmail.com',
     description='Python implementation for generating Tiny URL- and bit.ly-like URLs.',
     long_description=open('README.rst').read(),
 )

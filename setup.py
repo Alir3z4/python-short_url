@@ -15,7 +15,6 @@ setup(
     platforms='OS Independent',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
-        'Programming Language :: Python',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',

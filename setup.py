@@ -1,9 +1,12 @@
-from distutils.core import setup
+# -*- coding: utf-8 -*-
+from setuptools import setup, find_packages
+
 
 setup(
     name='short_url',
+    py_modules=['short_url'],
     version=".".join(map(str, __import__('short_url').__version__)),
-    packages=['short_url',],
+    packages=find_packages(exclude=['tests*']),
     url='https://github.com/Alir3z4/short_url',
     license='MIT',
     author='Michael Fogleman',

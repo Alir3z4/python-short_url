@@ -55,8 +55,10 @@ MIN_LENGTH = 5
 
 
 class UrlEncoder(object):
-    def __init__(
-            self, alphabet=DEFAULT_ALPHABET, block_size=DEFAULT_BLOCK_SIZE):
+
+    def __init__(self, alphabet=DEFAULT_ALPHABET, block_size=DEFAULT_BLOCK_SIZE):
+        if len(set(alphabet)) < 2:
+            raise AttributeError('Alphabet has to contain at least 2 characters.')
         self.alphabet = alphabet
         self.block_size = block_size
         self.mask = (1 << block_size) - 1

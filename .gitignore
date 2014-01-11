@@ -1,6 +1,7 @@
 *.pyc
 *.pyo
 MANIFEST
+.coverage
 *~
 
 .idea

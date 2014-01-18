@@ -61,6 +61,14 @@ Give a try to your finger:
 And done ;)
 
 
+Tests
+----
+`short_url` is tested on both `python2` and `python3`, to run the tests:
+
+::
+    $ tox
+
+
 ----
 
 ========== ======

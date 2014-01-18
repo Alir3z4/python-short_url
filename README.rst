@@ -47,7 +47,8 @@ and decode_url methods.
 
 
 Install
-----
+-------
+
 **short_url** is also available at pypi:
 
 http://pypi.python.org/pypi/short_url
@@ -55,18 +56,19 @@ http://pypi.python.org/pypi/short_url
 Give a try to your finger:
 
 ::
-    
+
     $ pip install short_url
 
 And done ;)
 
 
 Tests
-----
+-----
+
 ``short_url`` is tested on both `python2` and `python3`, to run the tests:
 
 ::
-    
+
     $ tox
 
 

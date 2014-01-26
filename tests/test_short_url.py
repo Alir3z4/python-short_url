@@ -31,6 +31,12 @@ def generate_test_data(count=10000):
 # generate_test_data()
 
 
+def load_data(filename):
+    filename = os.path.join(TEST_DATA, filename)
+    with open(filename, 'r') as f:
+        return f.read().splitlines()
+
+
 def test_custom_alphabet():
     encoder = short_url.UrlEncoder(alphabet='ab')
     url = encoder.encode_url(12)
@@ -44,3 +50,14 @@ def test_too_short_alphabet():
         short_url.UrlEncoder(alphabet='aa')
     with raises(AttributeError):
         short_url.UrlEncoder(alphabet='a')
+
+
+def test_calculated_values():
+    lines = load_data('key_values.txt')
+    for line in lines:
+        key, value = line.split(':')
+        key = int(key)
+        encoded_value = short_url.encode_url(key)
+        assert encoded_value == value
+        decoded_key = short_url.decode_url(encoded_value)
+        assert decoded_key == key

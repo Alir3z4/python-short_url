@@ -1,9 +1,9 @@
 Short URL Generator
 ===================
 
-.. image:: https://travis-ci.org/Alir3z4/short_url.png
+.. image:: https://travis-ci.org/Alir3z4/python-short_url.png
    :alt: travis-cli tests status for short_url
-   :target: https://travis-ci.org/Alir3z4/short_url
+   :target: https://travis-ci.org/Alir3z4/python-short_url
 
 Python implementation for generating Tiny URL- and bit.ly-like URLs.
 

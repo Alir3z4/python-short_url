@@ -3,6 +3,7 @@
 ----
 
 * Fix #15: bug in division of huge numbers
+* Add more Python Version to test.
 
 
 1.2 2014-01-12

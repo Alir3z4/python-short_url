@@ -5,6 +5,7 @@ python:
     - "3.3"
     - "3.4"
     - "3.5"
+    - "pypy"
 install:
     pip install -r requirements/devel.txt
 script: tox

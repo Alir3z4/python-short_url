@@ -99,7 +99,7 @@ class UrlEncoder(object):
         n = len(self.alphabet)
         if x < n:
             return self.alphabet[x]
-        return self._enbase(int(x / n)) + self.alphabet[int(x % n)]
+        return self._enbase(int(x // n)) + self.alphabet[int(x % n)]
 
     def debase(self, x):
         n = len(self.alphabet)
